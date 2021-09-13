@@ -7,7 +7,7 @@ socket.on('connect', () => {
 const messages = document.getElementById('messages');
 
 socket.on('disconnect', () => {
-  console.log('Desconectado del servidor');
+  console.log('Desconectado del servidor lrc');
 });
 // aqui recibe el cliente el mensaje desde el servidor
 socket.on('enviar-mensaje', (payload) => {
